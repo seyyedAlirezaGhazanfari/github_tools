@@ -35,9 +35,9 @@ def dir_extractor(file_count, url):
 
 # Replace these variables with your repository details
 
-repo_owner = "apache"
-repo_name = "beam"
-access_token = "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"
+repo_owner = "owner"
+repo_name = "name"
+access_token = "your token"
 base_url = f"https://api.github.com/repos/{repo_owner}/{repo_name}"
 headers = {"Authorization": f"token {access_token}",}
 file_count = 0
